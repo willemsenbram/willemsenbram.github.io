@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+  color: #202020;
+}
+
+a {
+  color: #0070F7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0070F7;
+}
+
+a:hover {
+  color: #2B8BFF;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.25rem;
+}
+
+#menu {
+  display: flex!important;
+  flex-wrap: wrap!important;
+  justify-content: center!important;
+  font-size: x-large;
+  font-weight: 700;
+  background-color: #F8F8F8;
+  color: #282828;
+}
+
+#readme {
+  background-color: #F0F0F0;
+  color: #202020;
+}
+
+#publications {
+  background-color: #F8F8F8;
+  color: #282828;
+}
+
+#socials {
+  background-color: #F0F0F0;
+  color: #202020;
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.inner {
+  max-width: 900px;
+  margin: auto!important;
+}
+
+.menu-item {
+  display: flex!important;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.readme-text {
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.socials-text {
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.table-container {
+  margin: 0;
+}
+
+.publication {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.publication-title {
+  display: flex!important;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.publication-links {
+  display: flex!important;
+}
+
+.best-paper-award-recipient {
+  color: #F5AB00;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #282828;
+    color: #F0F0F0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #FFE4C4;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a:visited {
+    color: #FFE4C4;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a:hover {
+    color: #FFCD91;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #menu {
+    background-color: #282828;
+    color: #F0F0F0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #readme {
+    background-color: #202020;
+    color: #F8F8F8;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #publications {
+    background-color: #282828;
+    color: #F0F0F0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #socials {
+    background-color: #202020;
+    color: #F8F8F8;
+  }
+}
